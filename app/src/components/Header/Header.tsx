@@ -25,6 +25,7 @@ const SecondaryButton = styled(PrimaryButton)`
 const Header = () => {
   return (
     <div>
+      <Title>Web Page Title</Title>
       <PrimaryButton>Primary Button</PrimaryButton>
       <SecondaryButton>Secondary Button</SecondaryButton>
     </div>
