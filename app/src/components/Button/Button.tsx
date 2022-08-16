@@ -6,18 +6,26 @@ interface IButton {
 }
 
 const BasicButton = styled.button`
-  background-color: transparent;
+  background-color: gray;
   border-radius: 3px;
   border: 2px solid gray;
-  color: gray;
+  color: white;
   margin: 0 20px;
   padding: 0 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    color: gray;
+  }
 `;
 
 const SecondaryButton = styled(BasicButton)`
   background-color: green;
-  color: white;
   border: 2px solid green;
+  &:hover {
+    background-color: white;
+    color: green;
+  }
 `;
 
 export const Button = ({ buttonText }: IButton): ReactElement => {
