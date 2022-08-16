@@ -11,7 +11,7 @@ const HeaderContainer = styled.section`
 const Header = () => {
   return (
     <HeaderContainer>
-      <HeaderText>test</HeaderText>
+      <HeaderText>My Header</HeaderText>
     </HeaderContainer>
   );
 };
